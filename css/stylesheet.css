@@ -1,0 +1,34 @@
+body{
+  font-family: "Helvetica Neue"
+  background: #f5fffa
+}
+
+.content{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial;
+}
+.left-box{
+  float: left;
+  width: 50%;
+}
+
+.right-box{
+  float: right;
+  width: 50%;
+}
+
+.main-nav li {
+  display: inline;
+
+}
+
+h1 {
+  text-align: center
+
+}
+
+h2 {
+  text-align: center
+}
