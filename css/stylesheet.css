@@ -1,34 +1,52 @@
+
+
+
 body{
-  font-family: "Helvetica Neue"
-  background: #f5fffa
+  background: #f5fffa;
+  font-family: "Helvetica Neue";
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: -50px;
+  font-family: 'Lora', serif;
+}
+
+h2 {
+  text-align: center;
+  font-size: 80px;
+  font-style: inherit;
+  color: #FE0550;
+  font-weight: 600;
+}
+
+img {
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-nav{
+  text-align: center;
+  font-size: 43px;
+  font-style: inherit;
+  color: #ff0000;
+  font-weight: 600;
+  margin-top: 20px
+}
+
+.more-pics{
+
 }
 
 .content{
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: Arial;
-}
-.left-box{
-  float: left;
-  width: 50%;
+  font-family: "Helvetica Neue";
+  padding-left: 0;
 }
 
-.right-box{
-  float: right;
-  width: 50%;
-}
 
 .main-nav li {
   display: inline;
-
-}
-
-h1 {
-  text-align: center
-
-}
-
-h2 {
-  text-align: center
 }
