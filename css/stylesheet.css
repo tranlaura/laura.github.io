@@ -1,52 +1,22 @@
-
-
-
-body{
-  background: #f5fffa;
-  font-family: "Helvetica Neue";
-}
-
-h1 {
-  text-align: center;
-  margin-bottom: -50px;
-  font-family: 'Lora', serif;
-}
-
-h2 {
-  text-align: center;
-  font-size: 80px;
-  font-style: inherit;
-  color: #FE0550;
-  font-weight: 600;
-}
-
-img {
-  width: 250px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.main-nav{
-  text-align: center;
-  font-size: 43px;
-  font-style: inherit;
-  color: #ff0000;
-  font-weight: 600;
-  margin-top: 20px
-}
-
-.more-pics{
+.menuwrapper {
 
 }
-
-.content{
+.main-nav {
   width: 100%;
-  font-family: "Helvetica Neue";
-  padding-left: 0;
+}
+.slider{
+
+}
+.header {
+
+}
+.top_3{
+
+}
+.socialmedia{
+
 }
 
-
-.main-nav li {
-  display: inline;
+.Copyright{
+  
 }
