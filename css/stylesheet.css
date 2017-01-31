@@ -1,20 +1,17 @@
-.menuwrapper {
-  align-items: center;
-  width: 100%;
-  height: 100%;
+* {
+  box-sizing: border-box;
 }
 
-.logo{
+.menuwrapper {
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+.logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.main-nav li {
- list-style-type: none;
- margin: 0;
- padding: 0;
- overflow: hidden;
 }
 
 .main-nav {
@@ -29,7 +26,10 @@ text-align: center;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .main-nav a{
@@ -44,7 +44,7 @@ text-align: center;
   height: 75px;
   padding-top: 50px;
   padding-right: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 
 }
 
@@ -53,32 +53,50 @@ text-align: center;
 }
 
 
-.header {
+.intro h1 {
+  text-align: center;
+  font-family: 'Raleway';
+  height: 75px;
+  padding-top: 30px;
+  padding-bottom: 15px;
 }
 
-.Top3{
+.intro p {
+  text-align: center;
+  font-family: 'Lora';
+  font-size: 18px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
 
 }
 
-.Reportagen{
-  margin: 50px;
+.sub-nav{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sub-nav-item{
       float: left;
-      width: 250px;
+      width: 33.33%;
       font-family: 'Raleway';
+      font-size: 20px;
+      padding: 15px;
+      text-align: center;
+      color: black;
+      text-decoration: none;
   }
-  .papeterie{
-    margin: 50px;
-        float: left;
-        width: 250px;
-        font-family: 'Raleway';
-    }
 
-    .blog{
-      margin: 50px;
-          float:left;
-          width: 250px;
-          font-family: 'Raleway';
-      }
+.sub-nav-item img{
+  width: 100%;
+}
+
+.sub-nav a:hover{
+  color: grey;
+}
+
 
   div.img:hover {
       border: 1px solid #777;
@@ -102,9 +120,13 @@ text-align: center;
 
 .socialmedia{
   clear: both;
-
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 
 .Copyright{
-
+  font-family: 'Lora';
+  font-size: 15px;
+  text-align: center;
 }
