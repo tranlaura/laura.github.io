@@ -1,22 +1,110 @@
 .menuwrapper {
-
-}
-.main-nav {
+  align-items: center;
   width: 100%;
+  height: 100%;
 }
-.slider{
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-nav li {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+}
+
+.main-nav {
+text-align: center;
+}
+
+.main-nav ul{
+  display: inline-block;
+}
+
+.main-nav li{
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
 
 }
+
+.main-nav a{
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Raleway';
+  font-size: 20px;
+  height: 75px;
+  padding-top: 50px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+
+}
+
+.main-nav a:hover{
+  color: grey;
+}
+
+
 .header {
+}
+
+.Top3{
 
 }
-.top_3{
 
+.Reportagen{
+  margin: 50px;
+      float: left;
+      width: 250px;
+      font-family: 'Raleway';
+  }
+  .papeterie{
+    margin: 50px;
+        float: left;
+        width: 250px;
+        font-family: 'Raleway';
+    }
+
+    .blog{
+      margin: 50px;
+          float:left;
+          width: 250px;
+          font-family: 'Raleway';
+      }
+
+  div.img:hover {
+      border: 1px solid #777;
+  }
+
+  div.img img {
+      width: 100%;
+      height: auto;
+  }
+
+  div.desc {
+      padding: 15px;
+      text-align: center;
 }
+
+.owl-carousel .item {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .socialmedia{
+  clear: both;
 
 }
 
 .Copyright{
-  
+
 }

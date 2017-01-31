@@ -3,73 +3,102 @@
   <meta charset="utf-8">
   <title>laura liebt</title>
     <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display" rel="stylesheet">
+
+    <!-- Owl Carousel Assets -->
+  <link rel="stylesheet" href="libraries/owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="libraries/owlcarousel/assets/owl.theme.default.min.css">
+
+  <script src="libraries/jquery.min.js"></script>
+  <script src="libraries/owlcarousel/owl.carousel.js"></script>
+  <!-- Owl Carousel Assets end -->
+
+    <link href="https://fonts.googleapis.com/css?family=Open+SansPlayfair+Display|Raleway"" rel="stylesheet">
 </head>
 <body>
 
-<div class='menuwrapper'>
-<img src="images/logo.jpg" style="width:500px;">
-  <nav class='main-nav'>
+<div class="menuwrapper">
+<img class="logo" src="images/logo.jpg" style="width:500px;">
+  <nav class="main-nav">
     <ul>
-      <li><a href="#">Reportagen</a></li>
-      <li><a href="#">Papeterie</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Über mich</a></li>
-      <li><a href="#">Kontakt</a></li>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">REPORTAGEN</a></li>
+      <li><a href="#">BLOG</a></li>
+      <li><a href="#">ÜBER MICH</a></li>
     </ul>
   </nav>
 
-<div class='slider'>
-  <img src="images/slider2.jpg" style="width:800px;">
+  <div class="owl-carousel owl-theme">
+          </div>
+          <div class="content">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img class="onarow" src="images/slider1.jpeg"/>
+        </div>
+        <div class="item">
+          <img class="onarow" src="images/slider4.jpeg"/>
+        </div>
+        <div class="item">
+          <img class="onarow" src="images/slider3.jpeg"/>
+        </div>
+      </div>
+    </div>
 
-<div class='header'>
+
+
+<div class="header">
   <h1> Cake ice cream gummies chocolate bar chupa chups. Chocolate fruitcake jelly-o jelly gummi bears pudding.
   </h1>
 
-  <style>
-  div.img {
-      margin: 5px;
-      border: 1px solid #ccc;
-      float: left;
-      width: 180px;
-  }
 
-  div.img:hover {
-      border: 1px solid #777;
-  }
+<div class="Top3">
 
-  div.img img {
-      width: 100%;
-      height: auto;
-  }
-
-  div.desc {
-      padding: 15px;
-      text-align: center;
-  }
-  </style>
-
-<div class="top_3">
+ <div class="Reportagen">
   <a target="_blank" href="reportagen.jpg">
     <img src="images/reportagen.jpg" style="width:250px;">
   </a>
   <div class="desc">REPORTAGEN</div>
+ </div>
+
+ <div class="Papeterie">
+  <a target="_blank" href="images/papeterie.jpg">
+    <img src="images/papeterie.jpg" style="width:250px;">
+  </a>
+  <div class="desc">PAPETERIE</div>
+ </div>
+
+ <div class="Blog">
+  <a target="_blank" href="images/blog.jpg">
+    <img src="images/blog.jpg" style="width:250px;">
+  </a>
+  <div class="desc">BLOG</div>
+  </div>
+  
 </div>
 
-<img src="images/papeterie.jpg" style="width:250px;">
-<p> PAPETERIE</p>
-<img src="images/blog.jpg" style="width:250px;">
-<p>BLOG</p>
-
-<div class='socialmedia'>
+<div class="socialmedia">
   <img src="images/instagram.png" style="width:30px;">
   <img src="images/facebook.png" style="width:30px;">
   <img src="images/pinterest.png" style="width:30px;">
 </div>
 <hr />
 
-<p class='Copyright'> Copyright © 2012-2017 laura liebt | Hochzeitsfotografin aus Berlin | IMPRESSUM </p>
+<p class="Copyright"> Copyright © 2012-2017 laura liebt | Hochzeitsfotografin aus Berlin | IMPRESSUM </p>
 
+<script>
+     $(document).ready(function() {
+       var owl = $('.owl-carousel');
+       owl.owlCarousel({
+         margin: 10,
+         loop: true,
+         autoplay: true,
+         responsive: {
+           0: {
+             items: 1
+           }
+         }
+       })
+     })
+  </script>
 
 </body>
 </html>
