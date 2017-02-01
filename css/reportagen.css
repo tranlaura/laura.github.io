@@ -139,27 +139,3 @@ text-align: center;
   font-size: 15px;
   text-align: center;
 }
-
- /*Reportagen*/
-
-.vorstellung{
-  width: 450px;
-  height: 400px;
-  margin-left: 450px;
-  font-family: 'lora';
-  font-size: 15px;
-}
-
-
-.profilpic{
-  width: 400px;
-  float:left;
-}
-
-.all{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 900px;
-  height: auto;
-}
